@@ -577,6 +577,13 @@
       "prefix": ""
     }
   },
+  "player": {
+    "song": { "prefix": "  " },
+    "playing": { "prefix": "" },
+    "paused": { "prefix": "" },
+    "prev": { "prefix": "" },
+    "next": { "prefix": "" }
+  },
   "publicip": {
     "prefix": "  "
   },
@@ -670,21 +677,10 @@
     "prefix": ""
   },
   "pomodoro": {
-    "off": {
-      "prefix": ""
-    },
-    "paused": {
-      "prefix": ""
-    },
-    "work": {
-      "prefix": ""
-    },
-    "break": {
-      "prefix": ""
-    }
-  },
-  "hddtemp": {
-    "prefix": ""
+    "off": { "prefix": "" },
+    "paused": { "prefix": "" },
+    "work": { "prefix": "" },
+    "break": { "prefix": "" }
   },
   "octoprint": {
     "prefix": " "
@@ -693,16 +689,8 @@
     "prefix": ""
   },
   "speedtest": {
-    "running": {
-      "prefix": [
-        "\uf251",
-        "\uf252",
-        "\uf253"
-      ]
-    },
-    "not-running": {
-      "prefix": "\uf144"
-    }
+    "running": { "prefix": ["\uf251", "\uf252", "\uf253"] },
+    "not-running": { "prefix": "\uf144" }
   },
   "thunderbird": {
     "prefix": ""
